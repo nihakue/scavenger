@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01510C016DC2982006F2FFF /* DetailPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01510BF16DC2982006F2FFF /* DetailPopup.xib */; };
+		C01714B816DC0E2600D0551D /* DetailPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = C01714B716DC0E2600D0551D /* DetailPopup.m */; };
 		C05EE2D416D5AE7E008D4108 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05EE2D316D5AE7E008D4108 /* UIKit.framework */; };
 		C05EE2D616D5AE7E008D4108 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05EE2D516D5AE7E008D4108 /* Foundation.framework */; };
 		C05EE2D816D5AE7E008D4108 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05EE2D716D5AE7E008D4108 /* CoreGraphics.framework */; };
@@ -18,9 +20,24 @@
 		C05EE2EA16D5AE7E008D4108 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C05EE2E916D5AE7E008D4108 /* Default-568h@2x.png */; };
 		C05EE2ED16D5AE7E008D4108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05EE2EC16D5AE7E008D4108 /* ViewController.m */; };
 		C05EE2F016D5AE7E008D4108 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05EE2EE16D5AE7E008D4108 /* ViewController.xib */; };
+		C05EE2F816D5AECC008D4108 /* ObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C05EE2F716D5AECC008D4108 /* ObjectManager.m */; };
+		C05EE2FB16D5AF58008D4108 /* PlantObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C05EE2FA16D5AF58008D4108 /* PlantObject.m */; };
+		C05EE2FE16D5AFC8008D4108 /* CritterObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C05EE2FD16D5AFC8008D4108 /* CritterObject.m */; };
+		C05EE30016D5B940008D4108 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C05EE2FF16D5B940008D4108 /* icon.png */; };
+		C05EE30216D5B95B008D4108 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = C05EE30116D5B95B008D4108 /* banner.png */; };
+		C05EE30416D5E920008D4108 /* cameraB.png in Resources */ = {isa = PBXBuildFile; fileRef = C05EE30316D5E920008D4108 /* cameraB.png */; };
+		C09302A816D6F1DB009E02B0 /* AddObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C09302A616D6F1DA009E02B0 /* AddObject.m */; };
+		C09302A916D6F1DB009E02B0 /* AddObject.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09302A716D6F1DB009E02B0 /* AddObject.xib */; };
+		C09302AC16D6F6C9009E02B0 /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = C09302AB16D6F6C9009E02B0 /* Object.m */; };
+		C0A4C8C816DC36160009BF1E /* no_image.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A4C8C716DC36160009BF1E /* no_image.png */; };
+		C0ADAE3E16D6D7600042A5BF /* WelcomePop.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ADAE3C16D6D7600042A5BF /* WelcomePop.m */; };
+		C0ADAE3F16D6D7600042A5BF /* WelcomePop.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0ADAE3D16D6D7600042A5BF /* WelcomePop.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C01510BF16DC2982006F2FFF /* DetailPopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailPopup.xib; sourceTree = "<group>"; };
+		C01714B616DC0E2600D0551D /* DetailPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPopup.h; sourceTree = "<group>"; };
+		C01714B716DC0E2600D0551D /* DetailPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPopup.m; sourceTree = "<group>"; };
 		C05EE2CF16D5AE7E008D4108 /* West_Assignment6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = West_Assignment6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05EE2D316D5AE7E008D4108 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C05EE2D516D5AE7E008D4108 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +54,24 @@
 		C05EE2EB16D5AE7E008D4108 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C05EE2EC16D5AE7E008D4108 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C05EE2EF16D5AE7E008D4108 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C05EE2F616D5AECC008D4108 /* ObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectManager.h; sourceTree = "<group>"; };
+		C05EE2F716D5AECC008D4108 /* ObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectManager.m; sourceTree = "<group>"; };
+		C05EE2F916D5AF58008D4108 /* PlantObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlantObject.h; path = West_Assignment6/PlantObject.h; sourceTree = "<group>"; };
+		C05EE2FA16D5AF58008D4108 /* PlantObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlantObject.m; path = West_Assignment6/PlantObject.m; sourceTree = "<group>"; };
+		C05EE2FC16D5AFC8008D4108 /* CritterObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CritterObject.h; path = West_Assignment6/CritterObject.h; sourceTree = "<group>"; };
+		C05EE2FD16D5AFC8008D4108 /* CritterObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CritterObject.m; path = West_Assignment6/CritterObject.m; sourceTree = "<group>"; };
+		C05EE2FF16D5B940008D4108 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		C05EE30116D5B95B008D4108 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		C05EE30316D5E920008D4108 /* cameraB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraB.png; sourceTree = "<group>"; };
+		C09302A516D6F1DA009E02B0 /* AddObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddObject.h; sourceTree = "<group>"; };
+		C09302A616D6F1DA009E02B0 /* AddObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddObject.m; sourceTree = "<group>"; };
+		C09302A716D6F1DB009E02B0 /* AddObject.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddObject.xib; sourceTree = "<group>"; };
+		C09302AA16D6F6C8009E02B0 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Object.h; path = West_Assignment6/Object.h; sourceTree = "<group>"; };
+		C09302AB16D6F6C9009E02B0 /* Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Object.m; path = West_Assignment6/Object.m; sourceTree = "<group>"; };
+		C0A4C8C716DC36160009BF1E /* no_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_image.png; sourceTree = "<group>"; };
+		C0ADAE3B16D6D7600042A5BF /* WelcomePop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomePop.h; sourceTree = "<group>"; };
+		C0ADAE3C16D6D7600042A5BF /* WelcomePop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomePop.m; sourceTree = "<group>"; };
+		C0ADAE3D16D6D7600042A5BF /* WelcomePop.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomePop.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +118,23 @@
 		C05EE2D916D5AE7E008D4108 /* West_Assignment6 */ = {
 			isa = PBXGroup;
 			children = (
+				C05EE2F616D5AECC008D4108 /* ObjectManager.h */,
+				C05EE2F716D5AECC008D4108 /* ObjectManager.m */,
 				C05EE2E216D5AE7E008D4108 /* AppDelegate.h */,
 				C05EE2E316D5AE7E008D4108 /* AppDelegate.m */,
 				C05EE2EB16D5AE7E008D4108 /* ViewController.h */,
 				C05EE2EC16D5AE7E008D4108 /* ViewController.m */,
 				C05EE2EE16D5AE7E008D4108 /* ViewController.xib */,
+				C01714B616DC0E2600D0551D /* DetailPopup.h */,
+				C01510BF16DC2982006F2FFF /* DetailPopup.xib */,
+				C01714B716DC0E2600D0551D /* DetailPopup.m */,
+				C0ADAE3B16D6D7600042A5BF /* WelcomePop.h */,
+				C0ADAE3C16D6D7600042A5BF /* WelcomePop.m */,
+				C0ADAE3D16D6D7600042A5BF /* WelcomePop.xib */,
+				C09302A516D6F1DA009E02B0 /* AddObject.h */,
+				C09302A616D6F1DA009E02B0 /* AddObject.m */,
+				C09302A716D6F1DB009E02B0 /* AddObject.xib */,
+				C09302AD16D6F73A009E02B0 /* Objects */,
 				C05EE2DA16D5AE7E008D4108 /* Supporting Files */,
 			);
 			path = West_Assignment6;
@@ -96,6 +143,10 @@
 		C05EE2DA16D5AE7E008D4108 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C0A4C8C716DC36160009BF1E /* no_image.png */,
+				C05EE30316D5E920008D4108 /* cameraB.png */,
+				C05EE2FF16D5B940008D4108 /* icon.png */,
+				C05EE30116D5B95B008D4108 /* banner.png */,
 				C05EE2DB16D5AE7E008D4108 /* West_Assignment6-Info.plist */,
 				C05EE2DC16D5AE7E008D4108 /* InfoPlist.strings */,
 				C05EE2DF16D5AE7E008D4108 /* main.m */,
@@ -105,6 +156,20 @@
 				C05EE2E916D5AE7E008D4108 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C09302AD16D6F73A009E02B0 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C05EE2F916D5AF58008D4108 /* PlantObject.h */,
+				C05EE2FA16D5AF58008D4108 /* PlantObject.m */,
+				C09302AA16D6F6C8009E02B0 /* Object.h */,
+				C09302AB16D6F6C9009E02B0 /* Object.m */,
+				C05EE2FC16D5AFC8008D4108 /* CritterObject.h */,
+				C05EE2FD16D5AFC8008D4108 /* CritterObject.m */,
+			);
+			name = Objects;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +228,13 @@
 				C05EE2E816D5AE7E008D4108 /* Default@2x.png in Resources */,
 				C05EE2EA16D5AE7E008D4108 /* Default-568h@2x.png in Resources */,
 				C05EE2F016D5AE7E008D4108 /* ViewController.xib in Resources */,
+				C05EE30016D5B940008D4108 /* icon.png in Resources */,
+				C05EE30216D5B95B008D4108 /* banner.png in Resources */,
+				C05EE30416D5E920008D4108 /* cameraB.png in Resources */,
+				C0ADAE3F16D6D7600042A5BF /* WelcomePop.xib in Resources */,
+				C09302A916D6F1DB009E02B0 /* AddObject.xib in Resources */,
+				C01510C016DC2982006F2FFF /* DetailPopup.xib in Resources */,
+				C0A4C8C816DC36160009BF1E /* no_image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +248,13 @@
 				C05EE2E016D5AE7E008D4108 /* main.m in Sources */,
 				C05EE2E416D5AE7E008D4108 /* AppDelegate.m in Sources */,
 				C05EE2ED16D5AE7E008D4108 /* ViewController.m in Sources */,
+				C05EE2F816D5AECC008D4108 /* ObjectManager.m in Sources */,
+				C05EE2FB16D5AF58008D4108 /* PlantObject.m in Sources */,
+				C05EE2FE16D5AFC8008D4108 /* CritterObject.m in Sources */,
+				C0ADAE3E16D6D7600042A5BF /* WelcomePop.m in Sources */,
+				C09302A816D6F1DB009E02B0 /* AddObject.m in Sources */,
+				C09302AC16D6F6C9009E02B0 /* Object.m in Sources */,
+				C01714B816DC0E2600D0551D /* DetailPopup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +370,7 @@
 				C05EE2F516D5AE7E008D4108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,17 +9,40 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "ObjectManager.h"
 
 @implementation AppDelegate
+@synthesize objMan;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    BOOL firstTimeUser = YES;
+    NSString * filename = @"records.out";
+    if ([[NSFileManager defaultManager]fileExistsAtPath:[ObjectManager pathForFile:filename]]) {
+        ObjectManager * tempObjMan = [[ObjectManager alloc]initWithContentsOfFileAt:filename];
+        if (tempObjMan) {
+            self.objMan = tempObjMan;
+            firstTimeUser = NO;
+        }
+    }
+    else{
+        self.objMan = [[ObjectManager alloc] init];
+    }
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    self.viewController.objMan = self.objMan;
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    self.viewController.firstTimeUser = firstTimeUser;
     return YES;
+}
+
+-(NSArray*)initializeDataAsArrayAtPath:(NSString*)path{
+    NSArray * documentDirectories = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentDirectory = [documentDirectories objectAtIndex:0];
+    NSString *recordsPath = [documentDirectory stringByAppendingPathComponent:@"records.out"];
+    NSArray* information = [NSArray arrayWithContentsOfFile:recordsPath];
+    return information;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
